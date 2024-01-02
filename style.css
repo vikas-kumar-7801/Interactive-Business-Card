@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    width: 260px;
+    perspective: 1000;
+    transition: transform 1s ease-in-out;
+}
+
+#card-container:hover{
+    box-shadow: 2px 2px 20px white;
+    transform: scale(1.2);  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#info-box{
+    margin: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-size: 15px;
+}
+
+a{
+    color: #666666;
+}
+
+a:hover{  
+    transition: transform 1s ease-in-out;
+    transform: scale(1.05);
+}
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#image-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#myImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#image-box:hover{
+    transition: transform 1ms ease-in-out;
+    transform: scale(1.05);
+}
+
+#icon{
+    padding: 10px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+#icon:hover{
+    transform: scale(2);
+}
+
+
